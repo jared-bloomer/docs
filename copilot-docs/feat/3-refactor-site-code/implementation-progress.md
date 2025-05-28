@@ -4,5 +4,5 @@
 - [x] Milestone 2: Create `base.html` Template
 - [x] Milestone 3: Refactor `index.html` to Extend `base.html`
 - [x] Milestone 4: Create Additional Page Files
-- [ ] Milestone 5: Update Asset References and Test Site
-- [ ] Milestone 6: Documentation and Lessons Learned
+- [x] Milestone 5: Update Asset References and Test Site
+- [x] Milestone 6: Documentation and Lessons Learned
