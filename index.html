@@ -50,10 +50,13 @@ title: My Web Page
       document.body.classList.toggle('text-bg-dark');
       // Toggle section backgrounds and text color
       document.querySelectorAll('.section-style').forEach(function(section) {
-        section.classList.toggle('bg-light');
-        section.classList.toggle('bg-dark');
-        section.classList.toggle('text-dark');
-        section.classList.toggle('text-white');
+        if (document.body.classList.contains('bg-light')) {
+          section.classList.remove('bg-dark', 'text-white');
+          section.classList.add('bg-light', 'text-dark');
+        } else {
+          section.classList.remove('bg-light', 'text-dark');
+          section.classList.add('bg-dark', 'text-white');
+        }
       });
       // Toggle header and footer backgrounds and text color
       document.querySelectorAll('header, footer').forEach(function(el) {
