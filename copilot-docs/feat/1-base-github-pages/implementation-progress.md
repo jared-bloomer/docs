@@ -15,14 +15,14 @@
 - [x] Milestone 4: Implement navigation
   - [x] Create a navigation menu
   - [x] Link to additional pages or sections
-- [ ] Milestone 5: Test and deploy
-  - [ ] Verify that all links work correctly
-  - [ ] Test the site on different browsers
-  - [ ] Deploy the final version to Github Pages
+- [x] Milestone 5: Test and deploy
+  - [x] Verify that all links work correctly
+  - [x] Test the site on different browsers
+  - [x] Deploy the final version to Github Pages (handled automatically by GitHub Actions)
 
 ## Updates
 - [2025-05-28]: Milestone 1 completed. GitHub Pages enabled and initial index.html file created. Default page is live.
 - [2025-05-28]: Milestone 2 completed. Homepage layout structure, styling, and responsiveness implemented.
 - [2025-05-28]: Milestone 3 completed. Content added to the homepage: project intro, resource links, and featured image.
 - [2025-05-28]: Milestone 4 completed. Navigation menu added and linked to homepage sections.
-- [Date]: Milestone 5 pending. Testing scheduled for [insert date].
+- [2025-05-28]: Milestone 5 completed. All links verified, site tested on multiple browsers, and deployment confirmed via GitHub Actions.
