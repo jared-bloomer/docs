@@ -17,10 +17,40 @@
   <body>
     <header>
       <h1>Welcome to My Web Page</h1>
+      <nav>
+        <ul style="list-style:none;display:flex;justify-content:center;gap:2rem;padding:0;margin:1rem 0;">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <p>This is a simple HTML page.</p>
-      <p>Feel free to explore and modify it!</p>
+      <section id="home">
+        <h2>About This Project</h2>
+        <p>This site demonstrates a simple, modern static website hosted on GitHub Pages. It is designed to help you quickly get started with publishing your own content, portfolio, or documentation using only HTML and CSS.</p>
+      </section>
+      <section id="about">
+        <h2>About</h2>
+        <p>This section can be expanded with more information about the project or yourself.</p>
+      </section>
+      <section id="resources">
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="https://pages.github.com/" target="_blank">GitHub Pages Documentation</a></li>
+          <li><a href="https://docs.github.com/en/pages" target="_blank">Official GitHub Pages Guide</a></li>
+          <li><a href="https://www.markdownguide.org/" target="_blank">Markdown Guide</a></li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Contact details or a contact form can go here.</p>
+      </section>
+      <section>
+        <h2>Featured Image</h2>
+        <img src="https://octodex.github.com/images/original.png" alt="GitHub Octocat" style="max-width:200px;width:100%;height:auto;display:block;margin:auto;" />
+      </section>
     </main>
     <footer>
       &copy; 2025 My Web Page

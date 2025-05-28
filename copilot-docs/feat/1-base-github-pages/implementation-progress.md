@@ -8,13 +8,13 @@
   - [x] Define the layout structure (header, footer, main content)
   - [x] Implement the layout using HTML and CSS
   - [x] Ensure responsiveness across devices
-- [ ] Milestone 3: Add content to the homepage
-  - [ ] Write introductory text about the project
-  - [ ] Include links to relevant resources
-  - [ ] Add images or graphics as needed
-- [ ] Milestone 4: Implement navigation
-  - [ ] Create a navigation menu
-  - [ ] Link to additional pages or sections
+- [x] Milestone 3: Add content to the homepage
+  - [x] Write introductory text about the project
+  - [x] Include links to relevant resources
+  - [x] Add images or graphics as needed
+- [x] Milestone 4: Implement navigation
+  - [x] Create a navigation menu
+  - [x] Link to additional pages or sections
 - [ ] Milestone 5: Test and deploy
   - [ ] Verify that all links work correctly
   - [ ] Test the site on different browsers
@@ -23,6 +23,6 @@
 ## Updates
 - [2025-05-28]: Milestone 1 completed. GitHub Pages enabled and initial index.html file created. Default page is live.
 - [2025-05-28]: Milestone 2 completed. Homepage layout structure, styling, and responsiveness implemented.
-- [Date]: Milestone 3 completed. Content added to the homepage.
-- [Date]: Milestone 4 in progress. Navigation menu being developed.
+- [2025-05-28]: Milestone 3 completed. Content added to the homepage: project intro, resource links, and featured image.
+- [2025-05-28]: Milestone 4 completed. Navigation menu added and linked to homepage sections.
 - [Date]: Milestone 5 pending. Testing scheduled for [insert date].
