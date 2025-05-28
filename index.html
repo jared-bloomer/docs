@@ -43,26 +43,30 @@ title: My Web Page
   document.addEventListener('DOMContentLoaded', function() {
     const themeToggle = document.getElementById('themeToggle');
     themeToggle.addEventListener('click', function() {
+      // Toggle body background and text color
       document.body.classList.toggle('bg-light');
-      document.body.classList.toggle('text-bg-dark');
       document.body.classList.toggle('bg-dark');
-      // Toggle section backgrounds for light/dark
+      document.body.classList.toggle('text-dark');
+      document.body.classList.toggle('text-bg-dark');
+      // Toggle section backgrounds and text color
       document.querySelectorAll('.section-style').forEach(function(section) {
         section.classList.toggle('bg-light');
         section.classList.toggle('bg-dark');
         section.classList.toggle('text-dark');
         section.classList.toggle('text-white');
       });
-      // Toggle nav and footer backgrounds
+      // Toggle header and footer backgrounds and text color
       document.querySelectorAll('header, footer').forEach(function(el) {
         el.classList.toggle('bg-light');
         el.classList.toggle('bg-dark');
         el.classList.toggle('text-dark');
         el.classList.toggle('text-white');
       });
-      // Update body text color
-      document.body.classList.toggle('text-dark');
-      document.body.classList.toggle('text-bg-dark');
+      // Toggle nav link text color
+      document.querySelectorAll('nav .nav-link').forEach(function(link) {
+        link.classList.toggle('text-dark');
+        link.classList.toggle('text-white');
+      });
       // Update button text
       if (document.body.classList.contains('bg-light')) {
         themeToggle.textContent = '☀️ Light';
