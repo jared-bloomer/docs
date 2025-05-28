@@ -1,58 +1,55 @@
-{% extends "base.html" %}
-{% block head %}
-  <title>My Web Page</title>
-{% endblock %}
-{% block content %}
-  <section id="home" class="mb-5 p-4 rounded-4 section-style shadow-sm border border-secondary">
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <h2 class="fw-bold">About This Project</h2>
-        <p>This site demonstrates a simple, modern static website hosted on GitHub Pages. It is designed to help you quickly get started with publishing your own content, portfolio, or documentation using only HTML and CSS.</p>
-      </div>
+---
+layout: default
+title: My Web Page
+---
+
+<section id="home" class="mb-5 p-4 rounded-4 section-style shadow-sm border border-secondary">
+  <div class="row">
+    <div class="col-lg-8 mx-auto">
+      <h2 class="fw-bold">About This Project</h2>
+      <p>This site demonstrates a simple, modern static website hosted on GitHub Pages. It is designed to help you quickly get started with publishing your own content, portfolio, or documentation using only HTML and CSS.</p>
     </div>
-  </section>
-  <section id="about" class="mb-5 p-4 rounded-4 section-style shadow-sm border border-secondary">
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <h2 class="fw-bold">About</h2>
-        <p>More information about the site and its creator.</p>
-      </div>
+  </div>
+</section>
+<section id="about" class="mb-5 p-4 rounded-4 section-style shadow-sm border border-secondary">
+  <div class="row">
+    <div class="col-lg-8 mx-auto">
+      <h2 class="fw-bold">About</h2>
+      <p>More information about the site and its creator.</p>
     </div>
-  </section>
-  <section id="resources" class="mb-5 p-4 rounded-4 section-style shadow-sm border border-secondary">
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <h2 class="fw-bold">Resources</h2>
-        <ul>
-          <li><a href="https://pages.github.com/" class="link-light">GitHub Pages Documentation</a></li>
-          <li><a href="https://getbootstrap.com/" class="link-light">Bootstrap Documentation</a></li>
-        </ul>
-      </div>
+  </div>
+</section>
+<section id="resources" class="mb-5 p-4 rounded-4 section-style shadow-sm border border-secondary">
+  <div class="row">
+    <div class="col-lg-8 mx-auto">
+      <h2 class="fw-bold">Resources</h2>
+      <ul>
+        <li><a href="https://pages.github.com/" class="link-light">GitHub Pages Documentation</a></li>
+        <li><a href="https://getbootstrap.com/" class="link-light">Bootstrap Documentation</a></li>
+      </ul>
     </div>
-  </section>
-  <section id="contact" class="mb-5 p-4 rounded-4 section-style shadow-sm border border-secondary">
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <h2 class="fw-bold">Contact</h2>
-        <p>Contact details or a contact form can go here.</p>
-      </div>
+  </div>
+</section>
+<section id="contact" class="mb-5 p-4 rounded-4 section-style shadow-sm border border-secondary">
+  <div class="row">
+    <div class="col-lg-8 mx-auto">
+      <h2 class="fw-bold">Contact</h2>
+      <p>Contact details or a contact form can go here.</p>
     </div>
-  </section>
-{% endblock %}
-{% block scripts %}
-  <script>
-    // Theme toggle script
-    document.addEventListener('DOMContentLoaded', function() {
-      const themeToggle = document.getElementById('themeToggle');
-      themeToggle.addEventListener('click', function() {
-        document.body.classList.toggle('bg-light');
-        document.body.classList.toggle('text-bg-dark');
-        if (document.body.classList.contains('bg-light')) {
-          themeToggle.textContent = '☀️ Light';
-        } else {
-          themeToggle.textContent = '🌙 Dark';
-        }
-      });
+  </div>
+</section>
+<script>
+  // Theme toggle script
+  document.addEventListener('DOMContentLoaded', function() {
+    const themeToggle = document.getElementById('themeToggle');
+    themeToggle.addEventListener('click', function() {
+      document.body.classList.toggle('bg-light');
+      document.body.classList.toggle('text-bg-dark');
+      if (document.body.classList.contains('bg-light')) {
+        themeToggle.textContent = '☀️ Light';
+      } else {
+        themeToggle.textContent = '🌙 Dark';
+      }
     });
-  </script>
-{% endblock %}
+  });
+</script>
