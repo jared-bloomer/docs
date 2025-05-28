@@ -13,8 +13,8 @@ title: Copilot Wiki
 
       <p>Now let's get real. Copilot is a tool that helps write code for you. Think of it as a mid-level developer that can write code 1000x faster than you. Is it good, not really. Does it need to iterate over the code it writes and make several changes, ABSOLUTELY. Just like a human, it rarely will get it right on the first try. It will have to iterate over the changes and make revisions to get to the final solution.</p>
 
-      <p>If copilot can do that, then what do I do? Great Question. Your role in this is to pair with copilot. Your job is no longer to write the code, but to tell copilot what you want it to do, provide context, and the fact-check it's work.</p>
-      <!-- Add Copilot documentation content here in the future -->
+      <p>If copilot can do that, then what do I do? Great Question. Your role in this is to pair with copilot. Your job is no longer to write the code, but to tell copilot what you want it to do, provide context, and then fact-check it's work.</p>
+
     </div>
   </div>
 </section>
