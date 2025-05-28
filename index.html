@@ -49,17 +49,20 @@ title: My Web Page
       // Toggle section backgrounds for light/dark
       document.querySelectorAll('.section-style').forEach(function(section) {
         section.classList.toggle('bg-light');
-        section.classList.toggle('text-bg-dark');
         section.classList.toggle('bg-dark');
+        section.classList.toggle('text-dark');
+        section.classList.toggle('text-white');
       });
       // Toggle nav and footer backgrounds
       document.querySelectorAll('header, footer').forEach(function(el) {
         el.classList.toggle('bg-light');
-        el.classList.toggle('text-bg-dark');
         el.classList.toggle('bg-dark');
-        el.classList.toggle('text-white');
         el.classList.toggle('text-dark');
+        el.classList.toggle('text-white');
       });
+      // Update body text color
+      document.body.classList.toggle('text-dark');
+      document.body.classList.toggle('text-bg-dark');
       // Update button text
       if (document.body.classList.contains('bg-light')) {
         themeToggle.textContent = '☀️ Light';
