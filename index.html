@@ -70,6 +70,16 @@ title: My Web Page
         link.classList.toggle('text-dark');
         link.classList.toggle('text-white');
       });
+      // Toggle resource links in Resources section
+      document.querySelectorAll('#resources a').forEach(function(link) {
+        if (document.body.classList.contains('bg-light')) {
+          link.classList.remove('link-light');
+          link.classList.add('link-dark');
+        } else {
+          link.classList.remove('link-dark');
+          link.classList.add('link-light');
+        }
+      });
       // Update button text
       if (document.body.classList.contains('bg-light')) {
         themeToggle.textContent = '☀️ Light';
