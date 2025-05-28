@@ -14,69 +14,70 @@
     </style>
   </head>
   <body class="bg-dark text-bg-dark">
-    <header class="bg-dark text-white py-4 mb-4">
+    <header class="bg-dark text-white py-4 mb-4 shadow-sm border-bottom border-secondary">
       <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
-        <h1 class="mb-3 mb-md-0">Welcome to My Web Page</h1>
+        <h1 class="mb-3 mb-md-0 fw-bold">Welcome to My Web Page</h1>
         <div>
-          <button id="themeToggle" class="btn btn-outline-light btn-sm" aria-label="Toggle dark/light mode">🌙 Dark</button>
+          <button id="themeToggle" class="btn btn-outline-light btn-sm rounded-pill px-3" aria-label="Toggle dark/light mode">🌙 Dark</button>
         </div>
       </div>
       <nav>
-        <ul class="nav justify-content-center mb-0">
-          <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#resources">Resources</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+        <ul class="nav justify-content-center mb-0 gap-2">
+          <li class="nav-item"><a class="nav-link text-white fw-semibold px-3 rounded-pill hover-bg-secondary" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white fw-semibold px-3 rounded-pill hover-bg-secondary" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white fw-semibold px-3 rounded-pill hover-bg-secondary" href="#resources">Resources</a></li>
+          <li class="nav-item"><a class="nav-link text-white fw-semibold px-3 rounded-pill hover-bg-secondary" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main class="container mb-5">
-      <section id="home" class="mb-5">
+      <section id="home" class="mb-5 p-4 rounded-4 bg-body-secondary shadow-sm">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>About This Project</h2>
+            <h2 class="fw-bold">About This Project</h2>
             <p>This site demonstrates a simple, modern static website hosted on GitHub Pages. It is designed to help you quickly get started with publishing your own content, portfolio, or documentation using only HTML and CSS.</p>
           </div>
         </div>
       </section>
-      <section id="about" class="mb-5">
+      <section id="about" class="mb-5 p-4 rounded-4 bg-body-tertiary shadow-sm">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>About</h2>
+            <h2 class="fw-bold">About</h2>
             <p>This section can be expanded with more information about the project or yourself.</p>
           </div>
         </div>
       </section>
-      <section id="resources" class="mb-5">
+      <section id="resources" class="mb-5 p-4 rounded-4 bg-body-secondary shadow-sm">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Resources</h2>
-            <ul class="list-group">
-              <li class="list-group-item"><a href="https://pages.github.com/" target="_blank">GitHub Pages Documentation</a></li>
-              <li class="list-group-item"><a href="https://docs.github.com/en/pages" target="_blank">Official GitHub Pages Guide</a></li>
-              <li class="list-group-item"><a href="https://www.markdownguide.org/" target="_blank">Markdown Guide</a></li>
+            <h2 class="fw-bold">Resources</h2>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item bg-transparent"><a class="link-primary fw-semibold" href="https://pages.github.com/" target="_blank">GitHub Pages Documentation</a></li>
+              <li class="list-group-item bg-transparent"><a class="link-primary fw-semibold" href="https://docs.github.com/en/pages" target="_blank">Official GitHub Pages Guide</a></li>
+              <li class="list-group-item bg-transparent"><a class="link-primary fw-semibold" href="https://www.markdownguide.org/" target="_blank">Markdown Guide</a></li>
             </ul>
           </div>
         </div>
       </section>
-      <section id="contact" class="mb-5">
+      <section id="contact" class="mb-5 p-4 rounded-4 bg-body-tertiary shadow-sm">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Contact</h2>
+            <h2 class="fw-bold">Contact</h2>
             <p>Contact details or a contact form can go here.</p>
+            <a href="mailto:your@email.com" class="btn btn-primary rounded-pill mt-2">Email Me</a>
           </div>
         </div>
       </section>
-      <section class="mb-5">
+      <section class="mb-5 p-4 rounded-4 bg-body-secondary shadow-sm">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2>Featured Image</h2>
-            <img src="https://octodex.github.com/images/original.png" alt="GitHub Octocat" class="img-fluid rounded shadow" style="max-width:200px;" />
+            <h2 class="fw-bold">Featured Image</h2>
+            <img src="https://octodex.github.com/images/original.png" alt="GitHub Octocat" class="img-fluid rounded shadow-lg border border-3 border-primary-subtle" style="max-width:200px;" />
           </div>
         </div>
       </section>
     </main>
-    <footer class="bg-dark text-white text-center py-3 border-top">
+    <footer class="bg-dark text-white text-center py-3 border-top border-secondary small">
       &copy; 2025 My Web Page
     </footer>
     <!-- Bootstrap JS Bundle -->
