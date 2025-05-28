@@ -45,6 +45,22 @@ title: My Web Page
     themeToggle.addEventListener('click', function() {
       document.body.classList.toggle('bg-light');
       document.body.classList.toggle('text-bg-dark');
+      document.body.classList.toggle('bg-dark');
+      // Toggle section backgrounds for light/dark
+      document.querySelectorAll('.section-style').forEach(function(section) {
+        section.classList.toggle('bg-light');
+        section.classList.toggle('text-bg-dark');
+        section.classList.toggle('bg-dark');
+      });
+      // Toggle nav and footer backgrounds
+      document.querySelectorAll('header, footer').forEach(function(el) {
+        el.classList.toggle('bg-light');
+        el.classList.toggle('text-bg-dark');
+        el.classList.toggle('bg-dark');
+        el.classList.toggle('text-white');
+        el.classList.toggle('text-dark');
+      });
+      // Update button text
       if (document.body.classList.contains('bg-light')) {
         themeToggle.textContent = '☀️ Light';
       } else {
